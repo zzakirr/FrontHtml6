@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.recent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+    padding-top: 30px;
+
+flex-direction: column;
+}
+.recent h3{
+    color: yellow;
+    font-size: 24px;
+}
+.recent h1{
+    font-size: 42px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+.recent .row1{
+display: flex;
+}
+.recent .row2{
+    display: flex;
+}
+.recent .boxes{
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+} .recent .boxes .text{
+    position: absolute;
+    top: 60px;
+    left: 100px;
+    z-index: 2;
+}
+.recent .boxes p{
+    color: white;
+    font-size: 18px;
+}
+.recent .boxes h3{
+    color: white;
+}
+.recent .boxes img{
+    margin-bottom: -4px;
+}
+.recent .boxes img:hover{
+    transform: scale(0.9,0.9);
+    opacity: 0.5;
+    tex
+}
+
+
